@@ -1,0 +1,13 @@
+.footer {
+  padding-top: 1vh;
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: black;
+  margin-bottom: 0;
+  text-align: center !important;
+}
