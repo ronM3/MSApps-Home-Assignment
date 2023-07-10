@@ -3,8 +3,7 @@ import axios from 'axios';
 
 import { setPhotosData, setPhotosLoading, setPhotosError, setCurrentPage, setCurrentCategory} from "./photosSlice";
 
-export const fetchPhotos = (category=null, page=1) => {
-  //  console.log(page, "This is page");
+export const fetchPhotos = (category=null, page =1) => {
     return async (dispatch) => {
       try {
         dispatch(setPhotosLoading(true));
