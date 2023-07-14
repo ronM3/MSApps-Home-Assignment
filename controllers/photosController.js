@@ -10,11 +10,7 @@ router.get("/",paginationMiddleware(9), async (req, res, next) => {
         const { category} = req.query;
         const { startIndex, endIndex } = req.pagination;
         const photos = await photosService.getPhotos(category);
-    
-         // get the subset of photos for the current page
         const paginatedPhotos = photos.slice(startIndex, endIndex);
-
-        // calculate pagination data
         const pagination = serviceHelper.calculatePagination(photos, 9, req.pagination.page);
     
         const response = {
