@@ -1,9 +1,17 @@
-# pixabay-assignment
+# pixabay-assignment - backend
 
-# Photos API
-## Base URL
+# Live API:
+
 # https://msapps-home-test.onrender.com/photos
 
+## Architecture Layers
+
+The project follows a layered architecture approach to separate concerns and improve maintainability:
+
+- **Controllers**: Handles the user interface and user interactions. It includes components, styles, and UI-related logic.
+- **Services**: Contains business logic, services, and helpers. It handles data fetching, caching, sorting, and pagination.
+- **Services Agents**: Provides access to external data sources, such as APIs or databases. In this project, it includes the backend API for retrieving photos.
+  
 # Routes
 * Get Paginated Photos
 * URL: /
