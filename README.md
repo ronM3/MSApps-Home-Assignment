@@ -3,7 +3,7 @@
 This is a full stack project built with Node.js, Express, React (Vite), and Redux Toolkit. The project aims to display and manage a collection of photos with pagination, sorting, and a user-friendly interface.
 
 ## Live: 
-https://msapps-api-assignment.onrender.com
+https://pixaimage.onrender.com/
 
 ## Functionality
 
